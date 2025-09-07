@@ -74,7 +74,7 @@ export default function About() {
           viewport={{ once: true }}
         >
           <img
-            src="/Naptile-peter.jpg"
+            src="public/Naptile-peter.jpg"
             alt="Naptile Peter"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full border-4 border-blue-500 shadow-lg shadow-blue-500/40 mb-6 object-cover"
           />
