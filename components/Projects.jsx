@@ -5,26 +5,109 @@ import Particles from "react-tsparticles";
 
 const projects = [
   {
-    title: "AI Chatbot Assistant",
-    description: "An AI-powered chatbot integrated with OpenAI API to handle real-time conversations.",
-    tech: ["Next.js", "OpenAI", "Tailwind"],
-    link: "#",
-    image: "https://source.unsplash.com/600x400/?ai,chatbot",
+    title: "Hospital dashboard",
+    description: "A modern responsive hospital admin dashboard built with React + Tailwind CSS.",
+    tech: ["Vite", "React", "Tailwind","Javascript (ES6)"],
+    link: "https://hospital-dashboard-kappa-taupe.vercel.app/",
+    image: "/medicare.png",
   },
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack MERN e-commerce website with authentication and payment integration.",
+    title: "Notes App",
+    description: "A full-stack Notes application built using the MERN stack. Users can register, log in, and manage personal notes securely.",
     tech: ["MongoDB", "Express", "React", "Node"],
-    link: "#",
-    image: "https://source.unsplash.com/600x400/?ecommerce,technology",
+    link: " https://new-notes-app-beta.vercel.app",
+    image: "/image.png",
   },
   {
     title: "Portfolio Website",
     description: "Glassmorphism-themed personal portfolio showcasing services and projects.",
     tech: ["Next.js", "Framer Motion", "Tailwind"],
-    link: "#",
-    image: "https://source.unsplash.com/600x400/?portfolio,web",
+    link: "https://naptile-portfolio.vercel.app/",
+    image: "/portfolio.png",
   },
+  {
+    title:"Chat-App",
+    description:"A full-stack real-time chat application built with the MERN stack,",
+    tech:["React (Vite)",
+    "Socket.io-client",
+    "Node.js",
+    "Express.js",
+    "MongoDB (Mongoose)",
+    "Socket.io",
+    "Cloudinary (image uploads)"],
+    link:"https://chat-app-lyart-nine-76.vercel.app/",
+    image: "/chatApp.png",
+      },
+
+      {
+    title: "Soil Health Analyzer",
+
+    description:"Soil Health Analyzer is a web application that helps users assess and monitor soil health through an intuitive interface, providing soil insights and actionable recommendations for farmers, gardeners, and researchers.",
+    tech:["React.js",
+      " Express",
+      " Tailwind",
+      "MongoDB",
+      "Weather API",      
+      ] ,
+    link: "https://soil-health-analyzer-4-nd9o.onrender.com",
+    image: "/soilAnalizer.png",
+  },
+
+
+  {
+    title: "Blog App",
+    description: "A full-stack Blog application built from scratch using modern web technologies. Users can create, view, search, and delete blog posts with real-time interaction between frontend and backend.",
+    tech: ["Vite", "React", "Tailwind","MongoDb","Express","Node"],
+    link: "https://blogapp-lac-phi.vercel.app/ ",
+    image: "/BlogApp.png",
+  },
+
+   {
+    title: "Eccomerce Website",
+    description: " a fully functional E-commerce web application built using modern frontend technologies. The app allows users to browse products, view details, add items to cart, and manage their shopping experience.",
+    tech: ["React js", "Express", "Tailwind","MongoDb","Node"],
+    link: "https://e-commerce-delta-five-66.vercel.app/",
+    image: "/ecommerce.png",
+  },
+
+
+   {
+    title: "Saasify Website",
+    description: "A modern responsive SaaS landing page built with React and Tailwind CSS. ",
+    tech: ["React js",  "Tailwind"],
+    link: "https://saa-sify-orpin.vercel.app/",
+    image: "/saasify.png",
+  },
+
+
+   {
+    title: "Social Feed Website",
+    description: " a dynamic Social Feed web application built using React. It fetches real-time data from an external API and displays posts in a clean, interactive UI.",
+    tech: ["React js", "Fetch API", "Tailwind","VITE",],
+    link: "https://social-feed-app-blue.vercel.app/ ",
+    image: "/socialFeed.png",
+  },
+
+
+  {
+    title: "Student Mangement System",
+    description: "A simple and scalable RESTful API built with Node.js, Express, and MongoDB for managing student records.",
+    tech: ["React js", "Express", "Tailwind","VITE","Node","MongoDB"],
+    link: "https://github.com/Naptile/studentDashboard.git ",
+    image: "/studentDash.png",
+  },
+
+   {
+    title: "Shambasphere",
+    description: "Led a team in the development of ShambaSphere, a web-based agricultural platform connecting farmers, buyers, and institutions, enabling produce trading, farming insights, weather updates, and role-based dashboards to improve agricultural access and decision-making.",
+    tech: ["HTML", "CSS", "Javascript ","Django","sql"],
+    link: "https://shambaspherefinal.onrender.com/",
+    image: "/shambaSphere.png",
+  },
+
+
+
+
 ];
 
 export default function Projects() {
