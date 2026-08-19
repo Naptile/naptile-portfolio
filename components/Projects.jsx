@@ -4,12 +4,31 @@ import { motion } from "framer-motion";
 import Particles from "react-tsparticles";
 
 const projects = [
+   {
+    title: "Student Management System",
+    description: "A Full Stack modern responsive student managementy system built with MERN stack Technology",
+    tech: ["MONGODB","express","Node js","Vite", "React", "Tailwind","Javascript (ES6)"],
+    link: "https://github.com/Naptile/student_management_system.git",
+    image: "/studentManagementSystem.png",
+    github:"https://github.com/Naptile/student_management_system.git"
+  },
+
+  {
+    title: "Employee Management System",
+    description: "A Full Stack modern responsive Employee managementy system built with MERN stack Technology. It demonstrates key fullstack development skills",
+    tech: ["MONGODB","express","Node js","Vite", "React", "Tailwind","Javascript (ES6)"],
+    link: "https://github.com/Naptile/employeeManagementSystem.git",
+    image: "/employeeManagement.png",
+    github:"https://github.com/Naptile/employeeManagementSystem.git"
+  },
+
   {
     title: "Hospital dashboard",
     description: "A modern responsive hospital admin dashboard built with React + Tailwind CSS.",
     tech: ["Vite", "React", "Tailwind","Javascript (ES6)"],
     link: "https://hospital-dashboard-kappa-taupe.vercel.app/",
     image: "/medicare.png",
+    github:"https://github.com/Naptile/hospital_dashboard.git"
   },
   {
     title: "Notes App",
@@ -17,6 +36,7 @@ const projects = [
     tech: ["MongoDB", "Express", "React", "Node"],
     link: " https://new-notes-app-beta.vercel.app",
     image: "/image.png",
+    github:"https://github.com/Naptile/New-notes-App.git"
   },
   {
     title: "Portfolio Website",
@@ -24,6 +44,7 @@ const projects = [
     tech: ["Next.js", "Framer Motion", "Tailwind"],
     link: "https://naptile-portfolio.vercel.app/",
     image: "/portfolio.png",
+    github:"https://github.com/Naptile/naptile-portfolio.git"
   },
   {
     title:"Chat-App",
@@ -37,11 +58,11 @@ const projects = [
     "Cloudinary (image uploads)"],
     link:"https://chat-app-lyart-nine-76.vercel.app/",
     image: "/chatApp.png",
+    github:"https://github.com/Naptile/Chat-App.git"
       },
 
       {
     title: "Soil Health Analyzer",
-
     description:"Soil Health Analyzer is a web application that helps users assess and monitor soil health through an intuitive interface, providing soil insights and actionable recommendations for farmers, gardeners, and researchers.",
     tech:["React.js",
       " Express",
@@ -51,6 +72,7 @@ const projects = [
       ] ,
     link: "https://soil-health-analyzer-4-nd9o.onrender.com",
     image: "/soilAnalizer.png",
+    github:"https://github.com/Naptile/soil-health-Analyzer.git"
   },
 
 
@@ -60,6 +82,7 @@ const projects = [
     tech: ["Vite", "React", "Tailwind","MongoDb","Express","Node"],
     link: "https://blogapp-lac-phi.vercel.app/ ",
     image: "/BlogApp.png",
+    github:"https://github.com/Naptile/Blog-App.git"
   },
 
    {
@@ -68,6 +91,7 @@ const projects = [
     tech: ["React js", "Express", "Tailwind","MongoDb","Node"],
     link: "https://e-commerce-delta-five-66.vercel.app/",
     image: "/ecommerce.png",
+    github:"https://github.com/Naptile/E-commerce.git"
   },
 
 
@@ -77,6 +101,7 @@ const projects = [
     tech: ["React js",  "Tailwind"],
     link: "https://saa-sify-orpin.vercel.app/",
     image: "/saasify.png",
+    github:"https://github.com/Naptile/saaSify.git"
   },
 
 
@@ -86,6 +111,7 @@ const projects = [
     tech: ["React js", "Fetch API", "Tailwind","VITE",],
     link: "https://social-feed-app-blue.vercel.app/ ",
     image: "/socialFeed.png",
+    github:""
   },
 
 
@@ -95,6 +121,7 @@ const projects = [
     tech: ["React js", "Express", "Tailwind","VITE","Node","MongoDB"],
     link: "https://github.com/Naptile/studentDashboard.git ",
     image: "/studentDash.png",
+    github:""
   },
 
    {
@@ -103,6 +130,24 @@ const projects = [
     tech: ["HTML", "CSS", "Javascript ","Django","sql"],
     link: "https://shambaspherefinal.onrender.com/",
     image: "/shambaSphere.png",
+    github:""
+  },
+
+  {
+    title: "Shambasphere",
+    description: "Led a team in the development of ShambaSphere, a web-based agricultural platform connecting farmers, buyers, and institutions, enabling produce trading, farming insights, weather updates, and role-based dashboards to improve agricultural access and decision-making.",
+    tech: ["HTML", "CSS", "Javascript ","Django","sql"],
+    link: "https://shambaspherefinal.onrender.com/",
+    image: "/shambaSphere.png",
+    github:""
+  },
+  {
+    title: "Shambasphere",
+    description: "Led a team in the development of ShambaSphere, a web-based agricultural platform connecting farmers, buyers, and institutions, enabling produce trading, farming insights, weather updates, and role-based dashboards to improve agricultural access and decision-making.",
+    tech: ["HTML", "CSS", "Javascript ","Django","sql"],
+    link: "https://shambaspherefinal.onrender.com/",
+    image: "/shambaSphere.png",
+    github:""
   },
 
 
@@ -124,7 +169,7 @@ export default function Projects() {
             className="relative p-6 rounded-2xl overflow-hidden cursor-pointer glass-card animate-glow"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{
-              opacity: [0, 1, 0.6, 1],
+              opacity: [1, 1, 0.6, 1],
               scale: [0.95, 1, 0.97, 1],
               transition: {
                 duration: 6,
@@ -189,9 +234,24 @@ export default function Projects() {
             >
               View Project
             </a>
+            <a href={project.github}
+            className="inline-block px-4 py-2 ml-4 rounded-lg bg-slate-900 text-white hover:bg-gray-500 transition z-10"
+            >Code</a>
+             
           </motion.div>
         ))}
+
+          <div className="flex text-center items-center justify-center">
+            <a className="text-center w-full flex justify-center mt-3 ">
+              <button className=" bg-gradient-to-r from-cyan-500 to-indigo-600 px-6 py-2 rounded-xl text-2xl font-bold">
+                View more Projects ➡
+                
+                </button>
+            </a>
+        </div>
+
       </div>
+       
     </section>
   );
 }

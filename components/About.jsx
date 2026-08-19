@@ -89,8 +89,8 @@ export default function About() {
 
           {/* Download CV Button */}
           <a
-            href="/Naptile-peter-cv.html"/*"Naptile-Peter-CV.pdf"*/
-            download
+            href="/Naptile-peter-cv.html"
+            // download
             className="flex items-center gap-2 px-6 py-3 rounded-xl glass-card border border-blue-500 text-blue-400 font-semibold hover:bg-blue-500 hover:text-white transition shadow-lg shadow-blue-500/30"
           >
             <FaDownload /> Download CV
