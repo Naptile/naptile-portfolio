@@ -5,6 +5,17 @@ import Particles from "react-tsparticles";
 
 const projects = [
    {
+    title: "Expense Tracker",
+    description: "A full-stack expense management application built with the MERN stack. The application allows users to securely manage their personal expenses, set monthly budgets, analyze spending patterns, and monitor their financial activity through an interactive dashboard.",
+    tech: ["MONGODB","express","Node js","Vite", "React", "Tailwind","Javascript (ES6)"],
+    link: "https://expense-tracker-beta-woad.vercel.app/",
+    image: "/expenseTracker.png",
+    github:"https://github.com/Naptile/expenseTracker.git"
+  },
+
+
+
+   {
     title: "Student Management System",
     description: "A Full Stack modern responsive student managementy system built with MERN stack Technology",
     tech: ["MONGODB","express","Node js","Vite", "React", "Tailwind","Javascript (ES6)"],
