@@ -19,7 +19,7 @@ const projects = [
     title: "Student Management System",
     description: "A Full Stack modern responsive student managementy system built with MERN stack Technology",
     tech: ["MONGODB","express","Node js","Vite", "React", "Tailwind","Javascript (ES6)"],
-    link: "https://github.com/Naptile/student_management_system.git",
+    link: "https://student-management-system-sepia-kappa.vercel.app/",
     image: "/studentManagementSystem.png",
     github:"https://github.com/Naptile/student_management_system.git"
   },
