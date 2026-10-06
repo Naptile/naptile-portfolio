@@ -55,9 +55,9 @@ export default function Certification(){
         }
     ]
     return(
-        <div className="min-w-full">
+        <div className=" flex flex-col justify-center items-center gap-5 px-4 py-10 bg-[#0b0b0c] text-white">
             <h1 className="text-4xl font-bold text-center  ">Certification</h1>
-            <div className="grid grid-cols cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full">
+            <div className="grid grid-cols cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-8 ">
             {certificates.map((certificate,index)=>(
                 <div key={index}
                 className="flex  flex-col w-full gap-2 p-5 border border-orange-700 border-4 border-l-purple-700 border-r-orange-500   w-full  sm:w-md bg-gradient-to-r from-orange-500 via-indigo-500 to-purple-700 mt-7 rounded-xl shadow-lg  ">
