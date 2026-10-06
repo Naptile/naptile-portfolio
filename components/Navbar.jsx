@@ -22,6 +22,7 @@ export default function Navbar() {
     { name: "About", to: "about" },
     { name: "Services", to: "services" },
     { name: "Projects", to: "projects" },
+    {name: "Certification", to: "certification" },
     { name: "Testimonials", to: "testimonials" },
     { name: "Contact", to: "contact" },
   ];

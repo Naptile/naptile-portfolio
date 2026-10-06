@@ -55,7 +55,7 @@ export default function Certification(){
         }
     ]
     return(
-        <div className=" flex flex-col justify-center items-center gap-5 px-4 py-10 bg-[#0b0b0c] text-white">
+        <div id="certification" className=" flex flex-col justify-center items-center gap-5 px-4 py-10 bg-[#0b0b0c] text-white">
             <h1 className="text-4xl font-bold text-center  ">Certification</h1>
             <div className="grid grid-cols cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-8 ">
             {certificates.map((certificate,index)=>(
