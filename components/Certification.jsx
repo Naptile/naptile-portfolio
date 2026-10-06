@@ -9,9 +9,9 @@ export default function Certification(){
         },
         {
             
-            title:"Certificate in Cybersecurity",
+            title:"Certificate in Artificial Intelligence",
             source:"IBM",
-            description:"Got a certification from power Learn project Africa for accomplishing a 16week training on Software development with specialization in MERN stack",
+            description:"Got a certification from IBM for accomplishing a online course on Artificial Intelligence and its applications in modern technology",
             image:"/Ai.png",
             date:"April 2025"
 
@@ -20,8 +20,8 @@ export default function Certification(){
          {
             
             title:"Certificate in Web Development",
-            source:"Power Learn Project",
-            description:"Got a certification from power Learn project Africa for accomplishing a 16week training on Software development with specialization in MERN stack",
+            source:"IBM",
+            description:"Got a certification from IBM for accomplishing a online course on Web Development and its applications in modern technology",
             image:"/ibmWeb.png",
             date:"November 2025"
         
@@ -30,7 +30,7 @@ export default function Certification(){
             
             title:"Certificate in Cybersecurity",
             source:"TechCrush",
-            description:"Got a certification from power Learn project Africa for accomplishing a 16week training on Software development with specialization in MERN stack",
+            description:"Got a certification from TechCrush for accomplishing a online course on Cybersecurity and its applications in modern technology",
             image:"/cybersecurity.png",
             date:"November 2025"
         
@@ -39,16 +39,16 @@ export default function Certification(){
             
             title:"Diploma in Cyber And Cloud Security",
             source:"Panoramics synergy & Transformation college",
-            description:"Got a certification from power Learn project Africa for accomplishing a 16week training on Software development with specialization in MERN stack",
+            description:"Got a certification for accomplishing a  training on Cyber and Cloud Security ",
             image:"/cyberAndCloudSecurity.jpeg",
             date:"November, 2025"
         
         },
          {
             
-            title:"Certificate in Software Development",
+            title:"Certificate in AI Safari",
             source:"Power Learn Project",
-            description:"Got a certification from power Learn project Africa for accomplishing a 16week training on Software development with specialization in MERN stack",
+            description:"Got a certification from power Learn project Africa for accomplishing a 4week training on Artificial Intelligence and its applications in modern technology",
             image:"/aisafari.png",
             date:"June 2026"
         
