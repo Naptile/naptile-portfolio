@@ -11,6 +11,7 @@ import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import BackToTop from "../components/BackToTop";
 import SectionWrapper from "../components/SectionWrapper";
+import Certification from "../components/Certification";
 
 export default function Home() {
   return (
@@ -58,9 +59,13 @@ export default function Home() {
       <SectionWrapper><About /></SectionWrapper>
       <SectionWrapper delay={0.2}><Services /></SectionWrapper>
       <SectionWrapper delay={0.3}><Projects /></SectionWrapper>
+      <SectionWrapper > <Certification/></SectionWrapper>
       <SectionWrapper delay={0.4}><Testimonials /></SectionWrapper>
       <SectionWrapper delay={0.5}><Contact /></SectionWrapper>
-
+      
+      
+      
+      
       {/* Chatbot */}
       <div className="fixed bottom-8 right-8 z-50">
         <Chatbot />
